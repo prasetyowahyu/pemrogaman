@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 15px;
+    font-size: 12px;
+    color: aqua;
+}
+/*p {
+    color: brown;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}*/
+
+b {
+    font-weight: normal;
+    color: chartreuse;
+}
+
+.font-color {
+                color: floralwhite;
+}
+.background {
+                background-color: red;
+}
+body {
+        background-color: rgb(255, 255, 255);
+}
+#head {
+    background-color: rebeccapurple;
+}
+h2 {
+    color: purple;
+}
+a:hover {
+    color: chartreuse;
+}
+a:link {
+    color: rgb(243, 0, 0);
+}
+a:visited {
+        color: bisque;
+}
+a:active {
+    color: darkred;
+}
+p::first-line {
+                color: magenta;
+}

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>lab</title>
+    </head>
+    <body>
+        <h2>Form Registrasi</h2>
+        <form action="" method="POST">
+            <label>Nama: </label>
+            <input type="text" size="30" name="nama">
+            <br>
+            <label>Username: </label>
+            <input type="text" size="16" name="uname" maxlength="16">
+            <br>
+            <label>Password: </label>
+            <input type="password" size="16" name="pass" maxlength="16">
+            <br>
+            <label>Jenis Kelamin: </label>
+            <input type="radio" name="jk" value="pria" checked>
+            <span> Pria</span>
+            <input type="radio" name="jk" value="wanita">
+            <span> Wanita</span>
+            <br>
+            <label>Hoby: </label><br>
+                <input type="checkbox" name="hob" value="spkbola"><span> Sepak Bola</span>
+                <input type="checkbox" name="hob" value="game"><span> Game</span>
+                <input type="checkbox" name="hob" value="tidur"><span> Tidur</span><br>
+                <label>Deskripsikan diri anda: <label>
+                <br>
+            <textarea style="height:100px;width:400px" name="desc"></textarea>
+            <hr>
+            <br>
+            <label>Darimana anda mendengar kami?</label><br>
+                <select name="dengar">
+                <option value="kuburan">Dari dalam kubur</option>
+                <option value="google">Google</option>
+                <option value="mimpi">Mimpi</option>
+            </select><br>
+                <input type="submit" value="DAFTAR">
+                <input type="reset" value="RESET">
+        </form>   
+
+    </body>
+</html>
